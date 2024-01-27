@@ -421,34 +421,7 @@ window.onload = function () {
 
 }
 
-let count_Hint=0;
 
-document.querySelector(".side-left-head-img").onclick=function()
-{
-  count_Hint++;
-  document.querySelector(".Responsive-lab").style.display="none";
-  document.querySelector(".Hints").style.display="block";
-  document.querySelector(".body").style.backgroundColor="white"
-}
-document.querySelector(".head-item2-mob").onclick=function()
-{
-  document.querySelector(".Responsive-mob").style.display="none";
-  document.querySelector(".Hints").style.display="block";
-}
-document.querySelector(".Hints-part1-item2").onclick=function()
-{
-  if(count_Hint===0)
-  {
-  document.querySelector(".Responsive-mob").style.display="block";
-  document.querySelector(".Hints").style.display="none";
-  count_Hint=0;
-  }
-  else
-  {
-    document.querySelector(".Responsive-lab").style.display="block";
-    document.querySelector(".Hints").style.display="none";
-    document.querySelector(".body").style.backgroundColor="#000DFF"
-  }
 
-}
+
 
